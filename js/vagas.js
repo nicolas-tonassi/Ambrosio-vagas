@@ -74,7 +74,7 @@ const vagas = [
     banner: "banners/gelobelC.jpg"
   },
   {
-    data: "2026-01-02",
+    data: "2026-01-03",
     titulo: "Vendedor(a)",
     empresa: "Shop do Berna",
     cidade: "Londrina",
