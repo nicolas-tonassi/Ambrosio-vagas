@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ambrosio Vagas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header ambrosio-header">
+  <div class="header-content">
+    <h1 class="logo-principal">AMBROSIO</h1>
+    <h2 class="logo-sub">EMPREGOS LONDRINA</h2>
+    <p class="logo-cidades">
+      IBIPORÃ, CAMBÉ, ROLÂNDIA E ARAPONGAS
+    </p>
+  </div>
+</header>
+
+<section class="filters">
+  <input type="text" id="searchInput" placeholder="Buscar vaga ou empresa">
+  <select id="cityFilter">
+    <option value="">Todas as cidades</option>
+    <option value="Londrina">Londrina</option>
+    <option value="Cambé">Cambé</option>
+    <option value="Rolândia">Rolândia</option>
+    <option value="Maringá">Maringá</option>
+  </select>
+</section>
+
+<main id="jobsContainer"></main>
+
+<footer class="footer">
+  Apenas divulgação de vagas — não realizamos seleção
+</footer>
+
+<!-- ORDEM IMPORTA -->
+<script src="js/vagas.js"></script>
+<script src="js/script.js"></script>
+
+<!-- MODAL DA VAGA -->
+<div class="modal" id="vagaModal">
+  <div class="modal-content">
+    <span class="close" onclick="fecharModal()">×</span>
+
+    <h2 id="modalTitulo"></h2>
+    <p id="modalEmpresa"></p>
+    <p id="modalCidade"></p>
+    <p id="modalDescricao" class="modal-descricao"></p>
+
+    <img id="modalBanner" src="" alt="Banner da empresa">
+  </div>
+</div>
+
+</body>
+</html>
