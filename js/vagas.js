@@ -83,6 +83,17 @@ const vagas = [
     whatsapp: "https://wa.me/5543996448262",
     email: "",
     banner: "banners/berna.jpg"
+  },
+  {
+    data: "2026-01-05",
+    titulo: "Auxiliar Administrativo",
+    empresa: "LOg Frango Transporte",
+    cidade: "Cambé",
+    descricao: "Preferência, não é obrigatório para quem reside em Cambé! OS interessados deverão mandar currículo em PDF pelo WHATSAPP, Com o assunto 'AUX ADM' ",
+    descricaoModal:"REQUISITOS: Experiência comprovada na função; Com conhecimento em pacote Office; TEr responsabilidade, comprometimento e organização",
+    whatsapp: "https://wa.me/5543998080018",
+    email: "",
+    banner: "banners/frango.jpg"
   }
   
 ];
