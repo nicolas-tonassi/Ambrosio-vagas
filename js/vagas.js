@@ -94,6 +94,17 @@ const vagas = [
     whatsapp: "https://wa.me/5543998080018",
     email: "",
     banner: "banners/frango.jpg"
+  },
+  {
+    data: "2026-01-05",
+    titulo: "Ajudante de Motorista",
+    empresa: "FPP Centro de Distribuição",
+    cidade: "Londrina",
+    descricao: "Vaga apenas para o sexo masculino e maior de 21 anos. Os interessados enviar o currículo em PDF pelo WHATSAPP, com o assunto 'Ajudante Motorista' ",
+    descricaoModal:"Buscamos um profissional responsável e comprometido! ",
+    whatsapp: "https://wa.me/5543991321611",
+    email: "",
+    banner: "banners/fpp.jpg"
   }
   
 ];
